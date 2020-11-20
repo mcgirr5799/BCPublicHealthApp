@@ -1,0 +1,19 @@
+Scrum Roles:
+
+Iteration 1:
+    Scrum Master: Zihao Zhao, zza123
+    Product Owner: Sean Dutton-Jones, sddutton
+    Repo Manager: Shawn McGirr, smcgirr
+    Team Member: Junheng Zhang, junhengz
+
+Iteration 2:
+    Scrum Master: Junheng Zhang, junhengz
+    Product Owner: Zihao Zhao, zza123
+    Repo Manager: Sean Dutton-Jones, sddutton
+    Team Member: Shawn McGirr, smcgirr
+
+Iteration 3:
+    Scrum Master: Shawn McGirr, smcgirr
+    Product Owner: Junheng Zhang, junhengz
+    Repo Manager: Zihao Zhao, zza123
+    Team Member: Sean Dutton-Jones, sddutton

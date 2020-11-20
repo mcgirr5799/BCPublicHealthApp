@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">group_21_project</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="restaurant_detail_hazard_level">Hazard level</string>
+    <string name="restaurant_detail_date">Date</string>
+    <string name="restaurant_detail_num_critical">critical issues</string>
+    <string name="restaurant_detail_num_non_critical">non-critical issues</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Updating</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="maps_back_to_user_location">Press the My Location button to center the map on your location.</string>
+
+    <string name="hazard_rating_none">None</string>
+    <string name="hazard_rating_high">High</string>
+    <string name="hazard_rating_moderate">Moderate</string>
+    <string name="hazard_rating_low">Low</string>
+
+    <string name="inspection_type_routine">Routine</string>
+    <string name="inspection_type_follow_up">Follow-Up</string>
+
+    <string name="inspection_detail_date">Date:</string>
+    <string name="inspection_detail_num_critical_issues">Number of critical issues:</string>
+    <string name="inspection_detail_non_critical_issues">Number of non-critical issues:</string>
+    <string name="inspection_detail_hazard_level">Hazard Level:</string>
+    <string name="inspection_detail_inspection_type">Inspection type:</string>
+    <string name="inspection_detail_violation_type">Violation Type</string>
+    <string name="inspection_detail_severity">Severity</string>
+    <string name="inspection_detail_description">Description</string>
+
+    <string name="cluster_marker_address">Address:</string>
+    <string name="cluster_marker_hazard_rating">Hazard Rating:</string>
+
+    <string name="restaurant_item_name">Name</string>
+    <string name="restaurant_item_num_issues">Issues:</string>
+    <string name="restaurant_item_date">Date:</string>
+    <string name="restaurant_item_hazard_level">hazard level:</string>
+
+    <string name="update_available">Update available</string>
+    <string name="update_text">There is new update available, do you want to start the update?\n (The update may take a long time, you can cancel the update at any time)</string>
+    <string name="update_positive_button">Yes</string>
+    <string name="update_negative_button">Ask me later</string>
+
+    <string name="filter_search_hint">Search name here</string>
+    <string name="filter_hazard_level">Recent Hazard Level:</string>
+    <string name="filter_num_critical_issues">Number of Critical Issues within one year:</string>
+    <string name="filter_range_text">to</string>
+    <string name="filter_show_favorites">Show Favorite only</string>
+    <string name="filter_apply_button">Apply filter</string>
+    <string name="filter_clear_button">Clear filter</string>
+    <string name="filter_invalid_critical_issue_num">Invalid Critical Issue Number</string>
+    <string name="filter_critical_issue_greater_than_zero">The Critical Issue Number should greater than 0</string>
+    <string name="filter_positive_button">OK</string>
+    <string name="filter_invalid_max_crit_issue">Invalid Max Critical Issue Number</string>
+    <string name="filter_max_crit_issue">The Max Critical Issue Number should greater or equal to Min Critical Issue Number</string>
+
+    <string-array name="hazard_level">
+        <item>None</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Low</item>
+    </string-array>
+
+<!--    Violations-->
+    <string name="violation_detail_title">Violation detail</string>
+    <string name="violation_detail_positive_button">OK</string>
+    <string name="code_101">Plans/construction/alterations not in accordance with the Regulation [s. 3; s. 4]</string>
+    <string name="code_102">Operation of an unapproved food premises [s. 6(1)]</string>
+    <string name="code_103">Failure to hold a valid permit while operating a food service establishment [s. 8(1)]</string>
+    <string name="code_104">Permit not posted in a conspicuous location [s. 8(7)]</string>
+    <string name="code_201">Food contaminated or unfit for human consumption [s. 13]</string>
+    <string name="code_202">Food not processed in a manner that makes it safe to eat [s. 14(1)]</string>
+    <string name="code_203">Food not cooled in an acceptable manner [s. 12(a)]</string>
+    <string name="code_204">Food not cooked or reheated in a manner that makes it safe to eat [s. 14(1)]</string>
+    <string name="code_205">Cold potentially hazardous food stored/displayed above 4 °C. [s. 14(2)]</string>
+    <string name="code_206">Hot potentially hazardous food stored/displayed below 60 °C. [s. 14(2)]</string>
+    <string name="code_208">Foods obtained from unapproved sources [s. 11]</string>
+    <string name="code_209">Food not protected from contamination [s. 12(a)]</string>
+    <string name="code_210">Food not thawed in an acceptable manner [s. 14(2)]</string>
+    <string name="code_211">Frozen potentially hazardous food stored/displayed above -18 °C. [s. 14(3)]</string>
+    <string name="code_212">Operator has not provided acceptable written food handling procedures [s. 23]</string>
+    <string name="code_301">Equipment/utensils/food contact surfaces not maintained in sanitary condition [s. 17(1)]</string>
+    <string name="code_302">Equipment/utensils/food contact surfaces not properly washed and sanitized [s. 17(2)]</string>
+    <string name="code_303">Equipment/facilities/hot and cold water for sanitary maintenance not adequate [s. 17(3); s. 4(1)(f)]</string>
+    <string name="code_304">Premises not free of pests [s. 26(a)]</string>
+    <string name="code_305">Conditions observed that may allow entrance/harbouring/breeding of pests [s. 26(b)(c)]</string>
+    <string name="code_306">Food premises not maintained in a sanitary condition. [s. 17(1)]</string>
+    <string name="code_307">Equipment/utensils/food contact surfaces are not of suitable design/material [s. 16; s. 19]</string>
+    <string name="code_308">Equipment/utensils/food contact surfaces are not in good working order [s. 16(b)]</string>
+    <string name="code_309">Chemicals cleansers and similar agents stored or labeled improperly. [s. 27]</string>
+    <string name="code_310">Single use containers and utensils are used more than once [s. 20]</string>
+    <string name="code_311">Premises not maintained as per approved plans [s. 6(1)(b)]</string>
+    <string name="code_312">Items not required for food premises operation being stored on the premises [s. 18]</string>
+    <string name="code_313">Live animal on the premises excluding guide animal in approved areas [s. 25(1)]</string>
+    <string name="code_314">Operator has not provided acceptable written sanitation procedures [s. 24]</string>
+    <string name="code_315">Refrigeration units and hot holding equipment lack accurate thermometers [s. 19(2)]</string>
+    <string name="code_401">Adequate handwashing stations not available for employees [s. 21(4)]</string>
+    <string name="code_402">Employee does not wash hands properly or at adequate frequency [s. 21(3)]</string>
+    <string name="code_403">Employee lacks good personal hygiene clean clothing and hair control [s. 21(1)]</string>
+    <string name="code_404">Employee smoking in food preparation/processing/storage areas [s. 21(2)]</string>
+    <string name="code_501">Operator does not have FOODSAFE Level 1 or Equivalent [s. 10(1)]</string>
+    <string name="code_502">In operator’s absence no staff on duty has FOODSAFE Level 1 or equivalent [s. 10(2)]</string>
+</resources>

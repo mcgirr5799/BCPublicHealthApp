@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.group_21_project.UI.inspection_detail">
+
+    <TextView
+        android:id="@+id/restaurantTitle_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateTitle_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/inspection_detail_date"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restaurantTitle_textview" />
+
+    <TextView
+        android:id="@+id/criticalIssueNumber_TextView"
+        android:layout_width="24dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/criticalIssueTitle_TextView"
+        app:layout_constraintTop_toTopOf="@+id/criticalIssueTitle_TextView" />
+
+    <TextView
+        android:id="@+id/criticalIssueTitle_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/inspection_detail_num_critical_issues"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/nonCriticalIssueNumber_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/nonCriticalIssueTitle_TextView"
+        app:layout_constraintTop_toTopOf="@+id/nonCriticalIssueTitle_TextView" />
+
+    <TextView
+        android:id="@+id/nonCriticalIssueTitle_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/inspection_detail_non_critical_issues"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/criticalIssueTitle_TextView"
+        app:layout_constraintTop_toBottomOf="@+id/criticalIssueTitle_TextView" />
+
+    <ListView
+        android:id="@+id/violationList"
+        android:layout_width="399dp"
+        android:layout_height="219dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/hazardLevelTitle_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/inspection_detail_hazard_level"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/nonCriticalIssueTitle_TextView"
+        app:layout_constraintTop_toBottomOf="@+id/nonCriticalIssueTitle_TextView" />
+
+    <ImageView
+        android:id="@+id/hazardLevel_ImageView"
+        android:layout_width="52dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintStart_toEndOf="@+id/hazardLevelTitle_TextView"
+        app:layout_constraintTop_toTopOf="@+id/hazardLevelTitle_TextView"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/inspectionDate_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/dateTitle_TextView"
+        app:layout_constraintTop_toTopOf="@+id/dateTitle_TextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/inspection_detail_inspection_type"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/dateTitle_TextView"
+        app:layout_constraintTop_toBottomOf="@+id/dateTitle_TextView" />
+
+    <TextView
+        android:id="@+id/inspection_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/inspection_detail_violation_type"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/violationList"
+        app:layout_constraintTop_toBottomOf="@+id/hazardLevelTitle_TextView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/inspection_detail_severity"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/inspection_detail_description"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/textView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>
